@@ -22,3 +22,22 @@ make it findable for the clinical trial managers.
 2. how might we design the initial data accessibility?
 3. is the data homogenisation possible to achieve?
 4. any other unknowns that we haven't thought of?
+
+# Setup and Dependencies
+
+## The automated way
+
+The project, and its dependencies, can be set up using [`mise`](https://mise.jdx.dev/)
+
+## The manual way
+
+You need to have the following installed and available in your path:
+
+* python (version 3.10)
+* poetry (pip install poetry)
+
+## Dependencies and Running the tests
+
+To install the project dependencies initially, run `poetry install` in the root of the project.
+
+To run the tests, `poetry run pytest` in the root of the project.
